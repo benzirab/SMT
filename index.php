@@ -22,7 +22,7 @@
     </head>
 
     <body>
-        Go to <a href="/Views/pages/index.php">HomePage</a>s
+        Go to <a href="/Views/pages/index.php">HomePage</a>
     </body>
 
     </html>
