@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - SMT@localhost" uuid="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3">
+    <database-info product="MySQL" version="5.5.42" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <schema name="" catalog="SMT"/>
+    <table name="Client" schema="" catalog="SMT" type="TABLE">
+      <column name="idClient" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="nom" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="prenom" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="adresse" sqlType="VARCHAR" precision="70" scale="0" nullable="true" jdbcType="12"/>
+      <column name="telephone" sqlType="VARCHAR" precision="15" scale="0" nullable="true" jdbcType="12"/>
+      <column name="jourLivraison" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="promoteur" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="teleOperateur" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="teamLeader" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="canalDeLivraison" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="nomTitulaire" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="gerant" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="delaiDePaiment" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="typeContrat" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="dateFinContrat" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <column name="poDeCommunication" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="zoneGeo" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="planogramme" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="idBde" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="idManager" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="idClient"/>
+      <foreign-key name="client_ibfk_1" columns="idManager" ref-table="manager" ref-schema="" ref-catalog="SMT" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="commande_ibfk_1" table="commande" schema="" catalog="SMT" columns="codeitp"/>
+      <exported-key name="liste_clients_ibfk_3" table="liste_clients" schema="" catalog="SMT" columns="idClient"/>
+    </table>
+    <table name="Produits" schema="" catalog="SMT" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nomProduit" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" remarks="RXhlbXBsZSBNYXJ2ZWw="/>
+      <column name="pckOut" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="cigarettes" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="prix" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="Marque" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="panier_ibfk_2" table="panier" schema="" catalog="SMT" columns="idproduit"/>
+    </table>
+    <table name="bde" schema="" catalog="SMT" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="nom" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="idManager" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="bde_ibfk_1" columns="idManager" ref-table="manager" ref-schema="" ref-catalog="SMT" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="commande_ibfk_2" table="commande" schema="" catalog="SMT" columns="idbde"/>
+      <exported-key name="liste_clients_ibfk_2" table="liste_clients" schema="" catalog="SMT" columns="idBde"/>
+      <exported-key name="remontee_terrain_ibfk_1" table="remontee_terrain" schema="" catalog="SMT" columns="idbde"/>
+    </table>
+    <table name="commande" schema="" catalog="SMT" type="TABLE">
+      <column name="idcommande" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="idbde" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="codeitp" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="total" sqlType="DOUBLE" precision="22" scale="0" nullable="false" jdbcType="8"/>
+      <column name="modePaiment" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="idcommande"/>
+      <foreign-key name="commande_ibfk_1" columns="codeitp" ref-table="Client" ref-schema="" ref-catalog="SMT" ref-columns="idClient" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="commande_ibfk_2" columns="idbde" ref-table="bde" ref-schema="" ref-catalog="SMT" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="panier_ibfk_1" table="panier" schema="" catalog="SMT" columns="idcommande"/>
+    </table>
+    <table name="liste_clients" schema="" catalog="SMT" type="TABLE">
+      <column name="idManager" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="idBde" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="idClient" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <foreign-key name="liste_clients_ibfk_3" columns="idClient" ref-table="Client" ref-schema="" ref-catalog="SMT" ref-columns="idClient" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="liste_clients_ibfk_1" columns="idManager" ref-table="manager" ref-schema="" ref-catalog="SMT" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="liste_clients_ibfk_2" columns="idBde" ref-table="bde" ref-schema="" ref-catalog="SMT" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="manager" schema="" catalog="SMT" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="nom" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="client_ibfk_1" table="Client" schema="" catalog="SMT" columns="idManager"/>
+      <exported-key name="bde_ibfk_1" table="bde" schema="" catalog="SMT" columns="idManager"/>
+      <exported-key name="liste_clients_ibfk_1" table="liste_clients" schema="" catalog="SMT" columns="idManager"/>
+    </table>
+    <table name="panier" schema="" catalog="SMT" type="TABLE">
+      <column name="idproduit" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="idcommande" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="quantite" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="idproduit,idcommande"/>
+      <foreign-key name="panier_ibfk_2" columns="idproduit" ref-table="Produits" ref-schema="" ref-catalog="SMT" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="panier_ibfk_1" columns="idcommande" ref-table="commande" ref-schema="" ref-catalog="SMT" ref-columns="idcommande" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="remontee_terrain" schema="" catalog="SMT" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <column name="idbde" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="sujet" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="commentaire" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="Secteur" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Marque" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="remontee_terrain_ibfk_1" columns="idbde" ref-table="bde" ref-schema="" ref-catalog="SMT" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+  </data-source>
+  <data-source name="MySQL - SMT_APP@localhost" uuid="cd557728-95ad-4d2a-b686-16ca13bf0a92">
+    <database-info product="MySQL" version="5.5.42" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <schema name="" catalog="SMT_APP"/>
+    <table name="Client" schema="" catalog="SMT_APP" type="TABLE">
+      <column name="idClient" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="nom" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="prenom" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="adresse" sqlType="VARCHAR" precision="70" scale="0" nullable="true" jdbcType="12"/>
+      <column name="telephone" sqlType="VARCHAR" precision="15" scale="0" nullable="true" jdbcType="12"/>
+      <column name="jourLivraison" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="teleOperateur" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="canalDeLivraison" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="nomTitulaire" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="gerant" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="delaiDePaiment" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="typeContrat" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="dateFinContrat" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <column name="poDeCommunication" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="zoneGeo" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="planogramme" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="idClient"/>
+      <exported-key name="commande_ibfk_1" table="commande" schema="" catalog="SMT_APP" columns="codeitp"/>
+      <exported-key name="liste_clients_ibfk_3" table="liste_clients" schema="" catalog="SMT_APP" columns="idClient"/>
+    </table>
+    <table name="bde" schema="" catalog="SMT_APP" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="nom" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="idManager" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="bde_ibfk_1" columns="idManager" ref-table="manager" ref-schema="" ref-catalog="SMT_APP" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="commande_ibfk_2" table="commande" schema="" catalog="SMT_APP" columns="idbde"/>
+      <exported-key name="liste_clients_ibfk_2" table="liste_clients" schema="" catalog="SMT_APP" columns="idBde"/>
+      <exported-key name="remontee_terrain_ibfk_1" table="remontee_terrain" schema="" catalog="SMT_APP" columns="idbde"/>
+    </table>
+    <table name="commande" schema="" catalog="SMT_APP" type="TABLE">
+      <column name="idcommande" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="idbde" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="codeitp" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="total" sqlType="DOUBLE" precision="22" scale="0" nullable="false" jdbcType="8"/>
+      <column name="modePaiment" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="idcommande"/>
+      <foreign-key name="commande_ibfk_1" columns="codeitp" ref-table="Client" ref-schema="" ref-catalog="SMT_APP" ref-columns="idClient" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="commande_ibfk_2" columns="idbde" ref-table="bde" ref-schema="" ref-catalog="SMT_APP" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="panier_ibfk_1" table="panier" schema="" catalog="SMT_APP" columns="idcommande"/>
+    </table>
+    <table name="liste_clients" schema="" catalog="SMT_APP" type="TABLE">
+      <column name="idManager" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="idBde" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="idClient" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <foreign-key name="liste_clients_ibfk_3" columns="idClient" ref-table="Client" ref-schema="" ref-catalog="SMT_APP" ref-columns="idClient" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="liste_clients_ibfk_1" columns="idManager" ref-table="manager" ref-schema="" ref-catalog="SMT_APP" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="liste_clients_ibfk_2" columns="idBde" ref-table="bde" ref-schema="" ref-catalog="SMT_APP" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="manager" schema="" catalog="SMT_APP" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="nom" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="bde_ibfk_1" table="bde" schema="" catalog="SMT_APP" columns="idManager"/>
+      <exported-key name="liste_clients_ibfk_1" table="liste_clients" schema="" catalog="SMT_APP" columns="idManager"/>
+    </table>
+    <table name="panier" schema="" catalog="SMT_APP" type="TABLE">
+      <column name="idproduit" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="idcommande" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="quantite" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="idproduit,idcommande"/>
+      <foreign-key name="panier_ibfk_2" columns="idproduit" ref-table="Produits" ref-schema="" ref-catalog="SMT_APP" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="panier_ibfk_1" columns="idcommande" ref-table="commande" ref-schema="" ref-catalog="SMT_APP" ref-columns="idcommande" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="produits" schema="" catalog="SMT_APP" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nomProduit" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12" remarks="RXhlbXBsZSBNYXJ2ZWw="/>
+      <column name="pckOut" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="cigarettes" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="prix" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="Marque" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="panier_ibfk_2" table="panier" schema="" catalog="SMT_APP" columns="idproduit"/>
+    </table>
+    <table name="remontee_terrain" schema="" catalog="SMT_APP" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <column name="idbde" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="sujet" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="commentaire" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="Secteur" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Marque" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="remontee_terrain_ibfk_1" columns="idbde" ref-table="bde" ref-schema="" ref-catalog="SMT_APP" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+  </data-source>
+</component>

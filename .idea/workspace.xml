@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="921d7b65-a74b-451c-b72c-957bb27e8f70" name="Default" comment="" />
+    <ignored path="Stage_SMT.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - SMT_APP@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="SMT_APP" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - SMT_APP@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="SMT_APP" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="liste_clients" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - SMT_APP@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="SMT_APP" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="commande" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - SMT@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="SMT" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Stage_SMT">
+      <favorite_root url="file://$PROJECT_DIR$/index.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Controllers/ProduitController.php" />
+        <option value="$PROJECT_DIR$/Views/pages/deconnexion.php" />
+        <option value="$PROJECT_DIR$/Views/pages/data.php" />
+        <option value="$PROJECT_DIR$/Views/css/style.css" />
+        <option value="$PROJECT_DIR$/Views/js/date_heure.js" />
+        <option value="$PROJECT_DIR$/Views/pages/moteur.php" />
+        <option value="$PROJECT_DIR$/Views/jcart/css/jcart.css" />
+        <option value="$PROJECT_DIR$/Views/pages/Rapport-extract.php" />
+        <option value="$PROJECT_DIR$/Views/pages/login.php" />
+        <option value="$PROJECT_DIR$/Controllers/listeDeMarques.php" />
+        <option value="$PROJECT_DIR$/Views/pages/script.php" />
+        <option value="$PROJECT_DIR$/Models/Util.php" />
+        <option value="$PROJECT_DIR$/Models/Connection.php" />
+        <option value="$PROJECT_DIR$/Views/pages/reclamation.php" />
+        <option value="$PROJECT_DIR$/Views/jcart/JCart.php" />
+        <option value="$PROJECT_DIR$/Views/pages/Enquete.php" />
+        <option value="$PROJECT_DIR$/Views/pages/head.php" />
+        <option value="$PROJECT_DIR$/Views/pages/index.php" />
+        <option value="$PROJECT_DIR$/Views/pages/Accueil.php" />
+        <option value="$PROJECT_DIR$/Views/pages/suivi_BD.php" />
+        <option value="$PROJECT_DIR$/Views/pages/menu.php" />
+        <option value="$PROJECT_DIR$/Views/pages/suivi.php" />
+        <option value="$PROJECT_DIR$/Views/pages/RecapCom.php" />
+        <option value="$PROJECT_DIR$/Models/SPDO.php" />
+        <option value="$PROJECT_DIR$/Views/pages/liste_clients.php" />
+        <option value="$PROJECT_DIR$/Views/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/Views/pages/visites.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/console.sql" />
+        <option value="$PROJECT_DIR$/Views/pages/produits.php" />
+        <option value="$PROJECT_DIR$/Controllers/validerCommande.php" />
+        <option value="$PROJECT_DIR$/Models/Commande.php" />
+        <option value="$PROJECT_DIR$/Views/pages/RecapEn.php" />
+        <option value="$PROJECT_DIR$/Controllers/validerConnexion.php" />
+        <option value="$PROJECT_DIR$/Controllers/enqueteController.php" />
+        <option value="$PROJECT_DIR$/Views/pages/commande.php" />
+        <option value="dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..Client" />
+        <option value="$PROJECT_DIR$/Views/pages/manager/head.php" />
+        <option value="$PROJECT_DIR$/Views/pages/manager/index.php" />
+        <option value="$PROJECT_DIR$/Views/pages/manager/menu.php" />
+        <option value="$PROJECT_DIR$/Views/pages/manager/listeClients.php" />
+        <option value="dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..bde" />
+        <option value="dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..manager" />
+        <option value="dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..liste_clients" />
+        <option value="dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..remontee_terrain" />
+        <option value="dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..Produits" />
+        <option value="dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..commande" />
+        <option value="dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..panier" />
+        <option value="$PROJECT_DIR$/Models/BDE.php" />
+        <option value="$PROJECT_DIR$/Models/Client.php" />
+        <option value="$PROJECT_DIR$/Models/Produits.php" />
+        <option value="$PROJECT_DIR$/Views/pages/info_client.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>InjectedReferences</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stage_SMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stage_SMT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stage_SMT_Bis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Views" />
+      <recent name="$PROJECT_DIR$/jcart/css" />
+      <recent name="$PROJECT_DIR$/jcart/js" />
+      <recent name="$PROJECT_DIR$/jcart" />
+      <recent name="$PROJECT_DIR$/Views/pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.Stage_SMT">
+    <configuration default="false" name="reclamation.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Views/pages/reclamation.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="Stage_SMT" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.reclamation.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.Stage_SMT" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.Stage_SMT" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.reclamation.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="921d7b65-a74b-451c-b72c-957bb27e8f70" name="Default" comment="" />
+      <created>1438858022360</created>
+      <option name="number" value="Default" />
+      <updated>1438858022360</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10978836" sideWeight="0.49030694" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19951534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1631664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.50646204" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33068782" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.49676898" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10978836" sideWeight="0.49030694" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19951534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33068782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10978836" sideWeight="0.509693" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2980614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Models/Util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="201" selection-start-line="13" selection-start-column="201" selection-end-line="13" selection-end-column="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/jcart/gateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/jcart/config-loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55397725">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/jcart/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.19176136">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/deconnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.833334">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/suivi_BD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/suivi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/RecapCom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/SPDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/jcart/JCart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5067" column="7" selection-start-line="5067" selection-start-column="1" selection-end-line="5067" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/visites.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="46" column="187" selection-start-line="46" selection-start-column="187" selection-end-line="46" selection-end-column="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.021489972">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.schema:SMT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.schema:SMT</OriginalElement>
+          <nodes>
+            <node x="6.229903536977474" y="-642.9260450160771">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Client</node>
+            <node x="222.90032154340844" y="-101.95659163987125">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.commande</node>
+            <node x="808.6414790996785" y="-589.5755627009646">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.remontee_terrain</node>
+            <node x="561.2990353697749" y="-403.92443729903533">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.bde</node>
+            <node x="868.5144694533764" y="-385.23472668810297">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Produits</node>
+            <node x="718.9372990353697" y="-181.54823151125402">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.panier</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.panier" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Produits">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.panier" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.commande">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.commande" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.bde">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.commande" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Client">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.remontee_terrain" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.bde">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8025806451612904" x="729.0" y="-211.0" />
+          <SelectedNodes>
+            <node>f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.bde</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/produits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8082386">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/RecapEn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.083333">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Commande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.458333">
+          <caret line="33" column="215" selection-start-line="33" selection-start-column="215" selection-end-line="33" selection-end-column="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/validerCommande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-52.916668">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/Enquete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="43" column="146" selection-start-line="43" selection-start-column="146" selection-end-line="43" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/validerConnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.708333">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/listeDeMarques.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/reclamation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.958333">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/enqueteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/commande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.041667">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/Accueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="25" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="25" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/manager/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/manager/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/liste_clients.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625">
+          <caret line="46" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/manager/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/manager/liste_clients.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3</OriginalElement>
+          <nodes>
+            <node x="562.4351851851852" y="125.0">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Client</node>
+            <node x="436.0" y="657.0">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.commande</node>
+            <node x="0.0" y="646.0">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.remontee_terrain</node>
+            <node x="361.76388888888886" y="301.0">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.bde</node>
+            <node x="228.0" y="657.0">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Produits</node>
+            <node x="397.42592592592587" y="881.0">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.panier</node>
+            <node x="750.625" y="0.0">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.manager</node>
+            <node x="863.5370370370371" y="690.5">f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.liste_clients</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.panier" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Produits">
+              <point x="-44.5" y="-48.5" />
+              <point x="441.92592592592587" y="856.0" />
+              <point x="322.0" y="856.0" />
+              <point x="0.0" y="81.5" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Client" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.manager">
+              <point x="0.0" y="-235.5" />
+              <point x="815.9351851851852" y="100.0" />
+              <point x="804.625" y="100.0" />
+              <point x="0.0" y="37.5" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.liste_clients" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Client">
+              <point x="0.0" y="-48.0" />
+              <point x="957.5370370370371" y="626.0" />
+              <point x="942.6851851851852" y="626.0" />
+              <point x="126.75" y="235.5" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.panier" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.commande">
+              <point x="44.5" y="-48.5" />
+              <point x="530.9259259259259" y="856.0" />
+              <point x="567.5" y="856.0" />
+              <point x="0.0" y="81.5" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.commande" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.bde">
+              <point x="-65.75" y="-81.5" />
+              <point x="501.75" y="626.0" />
+              <point x="435.76388888888886" y="626.0" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.liste_clients" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.bde">
+              <point x="-62.66666666666663" y="-48.0" />
+              <point x="894.8703703703704" y="616.0" />
+              <point x="485.0972222222221" y="616.0" />
+              <point x="49.33333333333326" y="59.5" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.commande" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Client">
+              <point x="65.75" y="-81.5" />
+              <point x="633.25" y="626.0" />
+              <point x="689.1851851851852" y="626.0" />
+              <point x="-126.75" y="235.5" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.bde" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.manager">
+              <point x="0.0" y="-59.5" />
+              <point x="435.76388888888886" y="100.0" />
+              <point x="768.625" y="100.0" />
+              <point x="-36.0" y="37.5" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.remontee_terrain" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.bde">
+              <point x="0.0" y="-92.5" />
+              <point x="104.0" y="626.0" />
+              <point x="386.4305555555556" y="626.0" />
+              <point x="-49.33333333333326" y="59.5" />
+            </edge>
+            <edge source="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.liste_clients" target="f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.manager">
+              <point x="62.66666666666663" y="-48.0" />
+              <point x="1020.2037037037037" y="626.0" />
+              <point x="1079.9351851851852" y="626.0" />
+              <point x="1079.9351851851852" y="100.0" />
+              <point x="840.625" y="100.0" />
+              <point x="36.0" y="37.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5456140350877193" x="430.0" y="363.0" />
+          <SelectedNodes>
+            <node>f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3.table:SMT.Client</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..Client">
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..bde">
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0338984">
+          <caret line="8" column="60" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..manager">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..liste_clients">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..remontee_terrain">
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24663678">
+          <caret line="11" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..Produits">
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17937219">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..commande">
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bb6c756f/f4f6ae86-1ba1-4be7-90ea-6ac039b8c5e3/SMT..panier">
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17937219">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46875">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/BDE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57528406">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <marker date="1440294763000" expanded="true" signature="-1:-1" placeholder="select * fro..bde..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33948863">
+          <caret line="117" column="38" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+          <folding>
+            <marker date="1440294814000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1440294814000" expanded="true" signature="-1:-1" placeholder="Select * fro..Client..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Produits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cd557728-95ad-4d2a-b686-16ca13bf0a92/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/pages/info_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="192" selection-start-line="50" selection-start-column="192" selection-end-line="50" selection-end-column="192" />
+          <folding>
+            <marker date="1440295215000" expanded="true" signature="-1:-1" placeholder="Select * fro..Client..." />
+            <marker date="1440295215000" expanded="true" signature="-1:-1" placeholder="Select * fro..Client..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
